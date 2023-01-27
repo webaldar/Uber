@@ -22,23 +22,24 @@ nav {
   margin-bottom: 0;
   list-style: none;
 }
-.menu .menu_link {
+.menu_link {
   font-weight: 300;
   font-size: 15px;
   color: #FFFFFF;
 }
-.menu .subheader {
+
+header .subheader {
   position: absolute;
   width: 100%;
   height: 84px;
   background-color: rgba(0, 0, 0, 0.6);
 }
-.menu .subheader_logo {
+header .subheader_logo {
   display: block;
   max-width: 100%;
   margin-top: 16px;
 }
-.menu .subheader_official {
+header .subheader_official {
   font-weight: 100;
   font-size: 13px;
   color: #FFFFFF;
@@ -46,7 +47,7 @@ nav {
   margin-top: 6px;
   line-height: 10px;
 }
-.menu .subheader_call {
+header .subheader_call {
   font-weight: 300;
   font-size: 12px;
   color: #FFFFFF;
@@ -54,7 +55,7 @@ nav {
   text-align: right;
   line-height: 12px;
 }
-.menu .subheader_phone {
+header .subheader_phone {
   display: block;
   margin-top: 8px;
   font-weight: 400;
@@ -65,7 +66,7 @@ nav {
   text-align: right;
   line-height: 12px;
 }
-.menu .subheader_btn {
+header .subheader_btn {
   width: 172px;
   height: 46px;
   margin-top: 20px;
@@ -87,14 +88,14 @@ nav {
   background: url("../img/uber_bg.png") center center/cover no-repeat;
   padding: 150px 0 135px 0;
 }
-.promo .promo_header {
+.promo_header {
   font-weight: 900;
   font-size: 60px;
   text-align: center;
   text-transform: uppercase;
   color: #FFFFFF;
 }
-.promo .promo_subheader {
+.promo_subheader {
   font-weight: 700;
   font-size: 36px;
   text-align: center;
@@ -297,4 +298,74 @@ nav {
   margin: 0 auto;
   border-radius: 100%;
   cursor: pointer;
+}
+
+.require {
+  padding: 66px 0 87px 0;
+}
+.require_header {
+  width: 115px;
+  height: 27px;
+  background: #000000;
+  font-weight: 400;
+  font-size: 11px;
+  line-height: 27px;
+  text-align: center;
+  text-transform: uppercase;
+  color: #FFFFFF;
+  margin: 0 auto;
+}
+.require_subheader {
+  font-weight: 700;
+  font-size: 38px;
+  text-align: center;
+  text-transform: uppercase;
+  color: #222222;
+  margin-top: 33px;
+}
+.require_block {
+  margin: 33px 0;
+}
+.require_block_nmb {
+  margin-bottom: 0px;
+}
+.require_title {
+  font-weight: 400;
+  font-size: 22px;
+  color: #1CA8C3;
+}
+.require_list {
+  list-style-type: none;
+  padding-left: 50px;
+  margin-top: 22px;
+}
+.require_list li {
+  position: relative;
+  font-weight: 300;
+  line-height: 24px;
+  font-size: 17px;
+  color: #222222;
+  margin-bottom: 10px;
+}
+.require_list li::before {
+  content: "";
+  display: block;
+  position: absolute;
+  left: -32px;
+  top: 2px;
+  width: 21px;
+  height: 20px;
+  background: url("../icon/check_blue.svg") center center/cover no-repeat;
+}
+.require_descr {
+  font-weight: 300;
+  font-size: 17px;
+  color: #1CA8C3;
+  margin-top: 25px;
+}
+.require .warning .require_title {
+  color: #FF5656;
+}
+.require .warning .require_list li::before {
+  background: url("../icon/check_red.svg") center center/cover no-repeat;
 }
